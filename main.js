@@ -30,5 +30,13 @@ let gattiNelleFile= perFila*file;
 console.log(gattiNelleFile);
 let restoGatti=gatti-gattiNelleFile
 let gattiMancanti= perFila-restoGatti
-console.log(`Ci sono `+file+` file di gatti e ne mancano `+gattiMancanti+` per completare la fila, con il resto di `+restoGatti )
+console.log(`Ci sono `+file+` file di gatti e ne mancano `+gattiMancanti+` per completare la fila, con un avanzo di `+restoGatti );
+
+// ESERCIZIO 4 
+console.log(false||true);
+console.log(23>6);
+console.log(true||NaN);
+console.log("ciao"&&true);
+console.log(null||true);
+
 
