@@ -39,4 +39,10 @@ console.log(true||NaN);
 console.log("ciao"&&true);
 console.log(null||true);
 
+// ESERCIZIO EXTRA
+const temp= [a = 10, b = -2, c = 31, d = 22, e = 15, f = -6, g = 7]
+console.log(`La temperatura più calda è `+Math.max(...temp)+`gradi, quella più fredda è di `+Math.min(...temp)+` gradi`);
+
+
+
 
