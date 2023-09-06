@@ -1,0 +1,10 @@
+let number1= 10;
+let number2=6;
+let number3=12;
+let number4=18;
+let number5= 22;
+let somma= number1+number2+number3+number4+number5;
+console.log(somma);
+let numeroMedia= 5;
+let divisione= somma/numeroMedia;
+console.log(divisione);
